@@ -6,73 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Projeto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    .container {
-        text-align: justify;
-    }
-    
-    .container::after {
-        content: "";
-        display: inline-block;
-        width: 100%;
-    }
-    
-    .box {
-        display: inline-block;
-        width: 30%;
-        text-align: center;
-    }
-    
-    .miniprojeto {
-        font-size: 2em;
-    }
-    
-    .home {
-        background-color: pink;
-        opacity: 0;
-    }
-    
-    .produtos {
-        font-style: normal;
-    }
-    
-    .contatos {
-        background-color: coral;
-    }
-    
-    li {
-        list-style: none;
-    }
-    
-    h2,
-    p {
-        text-align: center;
-    }
-    
-    img {
-        display: block;
-        width: 50%;
-        margin: auto;
-    }
-</style>
 
 <body>
-    <div class="container">
-        <h1 class="box miniprojeto">Mini Projeto</h1>
-        <h1 class="box home">Home</h1>
-        <div class="box produtos">
-            <ul>
-                <li>Home</li>
-                <li>Produtos</li>
-                <li>Contatos</li>
-            </ul>
+    <nav>
+        <ul class="navMenu">
+            <li>
+                <a href="breve.html">Breve</a>
+            </li>
+            <li>
+                <a href="https://www.yourclassical.org/story/2011/12/16/beethovens-birthday">Museu</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <div class="subTitulo">
+            <h2>Beethoven 250 anos: a história e legado de um gênio da música clássica</h2>
+            <p>Nascimento de <strong>Ludwig van Beethoven</strong>completa 250 anos nesta quinta.</p>
         </div>
+        <img class="imgMenu" src="Images/beethoven.jpg" alt="logo cidade noturna">
+    </section>
 
-    </div>
-    <h2>Sejam bem vindo ao Mini-Projeto</h2>
-    <p>Esse projeto tem o intuito de ensinar HTML5 para iniciantes.</p>
-    <img src="Images/CidadeNoturna.jpg" alt="logo cidade noturna">
 </body>
 
 </html>
